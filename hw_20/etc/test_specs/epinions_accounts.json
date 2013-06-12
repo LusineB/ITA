@@ -1,0 +1,101 @@
+{
+    "epinions_invalid_id":
+    [
+        {
+            "username" : "invalid1", "password" : "epicenter1"
+        },
+        {
+            "username" : "invalid22", "password" : "epicenter2"
+        },
+		{
+            "username" : "invalid3", "password" : "epicenter3"
+        },
+		{
+            "username" : "invalid4", "password" : "epicenter4"
+        },
+		{
+            "username" : "invalid5", "password" : "epicenter5"
+        },
+		{
+            "username" : "invalid6", "password" : "epicenter6"
+        },
+		{
+            "username" : "invalid7", "password" : "epicenter7"
+        },
+		{
+            "username" : "invalid8", "password" : "epicenter8"
+        },
+		{
+            "username" : "invalid9", "password" : "epicenter9"
+        },
+		{
+            "username" : "invalid10", "password" : "epicenter10"
+        }
+    ],
+    "epinions_invalid_password":
+    [
+        {
+            "username" : "epitest1", "password" : "invpass1"
+        },
+		{
+            "username" : "epitest2", "password" : "invpass2"
+        },
+		{
+            "username" : "epitest3", "password" : "invpass3"
+        },
+		{
+            "username" : "epitest4", "password" : "invpass4"
+        },
+		{
+            "username" : "epitest5", "password" : "invpass5"
+        },
+		{
+            "username" : "epitest6", "password" : "invpass6"
+        },
+		{
+            "username" : "epitest7", "password" : "invpass7"
+        },
+		{
+            "username" : "epitest8", "password" : "invpass8"
+        },
+		{
+            "username" : "epitest9", "password" : "invpass9"
+        },
+		{
+            "username" : "epitest10", "password" : "invpass10"
+        }
+    ],
+    "epinions_valid_accounts":
+    [
+		{
+            "username" : "epitest1", "password" : "epicenter1"
+        },
+		 {
+            "username" : "epitest2", "password" : "epicenter2"
+        },
+		 {
+            "username" : "epitest3", "password" : "epicenter3"
+        },
+		 {
+            "username" : "epitest4", "password" : "epicenter4"
+        },
+		 {
+            "username" : "epitest5", "password" : "epicenter5"
+        },
+		 {
+            "username" : "epitest6", "password" : "epicenter6"
+        },
+        {
+            "username" : "epitest7", "password" : "epicenter7"
+        },
+		 {
+            "username" : "epitest8", "password" : "epicenter8"
+        },
+		 {
+            "username" : "epitest9", "password" : "epicenter9"
+        },
+		 {
+            "username" : "epitest10", "password" : "epicenter10"
+        }
+    ]
+}
