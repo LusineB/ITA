@@ -1,0 +1,2 @@
+
+PASS: The file http://www.shopping.com/robots.txt exists with size 64.
