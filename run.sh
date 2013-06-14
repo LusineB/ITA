@@ -58,3 +58,16 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 # Commands to execute Homeworks # 20
 
 # ruby ./hw_20/lib/epinions_post_qa.rb -f html -o ./reports/epinions_post_qa_test.html
+
+# Commands to execute Homeworks # 21
+
+# ruby ./hw_21/lib/script_21_01.rb -o ./etc/input_21_01.txt
+# ruby ./hw_21/lib/script_21_02.rb -o ./etc/input_21_02.txt
+# ruby ./hw_21/lib/script_21_03.rb -o ./etc/input_21_03.txt
+# ruby ./hw_21/lib/script_21_04.rb -o ./etc/input_21_04.txt
+# ruby ./hw_21/lib/script_21_05.rb -o ./etc/input_21_05.txt
+# ruby ./hw_21/lib/script_21_06_A.rb -o ./etc/input_21_06_A.txt
+# ruby ./hw_21/lib/script_21_06_B.rb -o ./etc/input_21_06_B.txt
+# ruby ./hw_21/lib/script_21_07_A.rb -o ./etc/input_21_07_A.txt
+# ruby ./hw_21/lib/script_21_07_B.rb -o ./etc/input_21_07_B.txt
+# ruby ./hw_21/lib/script_21_08.rb -o ./etc/input_21_08.txt
