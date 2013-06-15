@@ -97,3 +97,16 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 # ruby ./hw_23/lib/script_23_07_A.rb -o ./etc/input_23_07_A.json
 # ruby ./hw_23/lib/script_23_07_B.rb -o ./etc/input_23_07_B.json
 # ruby ./hw_23/lib/script_23_08.rb -o ./etc/input_23_08.json
+
+# Commands to execute Homeworks # 24
+
+# ruby ./hw_24/lib/script_24_01.rb -o ./etc/input_24.json
+# ruby ./hw_24/lib/script_24_02.rb -o ./etc/input_24.json
+# ruby ./hw_24/lib/script_24_03.rb -o ./etc/input_24.json
+# ruby ./hw_24/lib/script_24_04.rb -o ./etc/input_24.json
+# ruby ./hw_24/lib/script_24_05.rb -o ./etc/input_24.json
+# ruby ./hw_24/lib/script_24_06_A.rb -o ./etc/input_24.json
+# ruby ./hw_24/lib/script_24_06_B.rb -o ./etc/input_24.json
+# ruby ./hw_24/lib/script_24_07_A.rb -o ./etc/input_24.json
+#  ruby ./hw_24/lib/script_24_07_B.rb -o ./etc/input_24.json
+#  ruby ./hw_24/lib/script_24_08.rb -o ./etc/input_24.json
