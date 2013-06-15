@@ -84,3 +84,16 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 # ruby ./hw_22/lib/script_22_07_A.rb -o ./etc/input_22.csv -l 8
 # ruby ./hw_22/lib/script_22_07_B.rb -o ./etc/input_22.csv -l 9
 # ruby ./hw_22/lib/script_22_08.rb -o ./etc/input_22.csv -l 10
+
+# Commands to execute Homeworks # 23
+
+# ruby ./hw_23/lib/script_23_01.rb -o ./etc/input_23_01.json
+# ruby ./hw_23/lib/script_23_02.rb -o ./etc/input_23_02.json
+# ruby ./hw_23/lib/script_23_03.rb -o ./etc/input_23_03.json
+# ruby ./hw_23/lib/script_23_04.rb -o ./etc/input_23_04.json
+# ruby ./hw_23/lib/script_23_05.rb -o ./etc/input_23_05.json
+# ruby ./hw_23/lib/script_23_06_A.rb -o ./etc/input_23_06_A.json
+# ruby ./hw_23/lib/script_23_06_A.rb -o ./etc/input_23_06_B.json
+# ruby ./hw_23/lib/script_23_07_A.rb -o ./etc/input_23_07_A.json
+# ruby ./hw_23/lib/script_23_07_B.rb -o ./etc/input_23_07_B.json
+# ruby ./hw_23/lib/script_23_08.rb -o ./etc/input_23_08.json
