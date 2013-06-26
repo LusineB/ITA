@@ -110,3 +110,8 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 # ruby ./hw_24/lib/script_24_07_A.rb -o ./etc/input_24.json
 #  ruby ./hw_24/lib/script_24_07_B.rb -o ./etc/input_24.json
 #  ruby ./hw_24/lib/script_24_08.rb -o ./etc/input_24.json
+
+# Commands to execute Homeworks # 25
+
+# bundle exec ruby ./lib/static_element_validation.rb -d www.shopping.com -p ./etc/test_specs/sdc_page_urls.json
+# bundle exec ruby ./lib/static_element_validation.rb -d www.shopping.com -p ./etc/test_specs/sdc_page_urls.json --exitstatus
