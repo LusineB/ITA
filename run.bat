@@ -111,5 +111,48 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 
 :: Commands to execute Homeworks # 25
 
-:: bundle exec ruby ./lib/static_element_validation.rb -d www.shopping.com -p ./etc/test_specs/sdc_page_urls.json
-:: bundle exec ruby ./lib/static_element_validation.rb -d www.shopping.com -p ./etc/test_specs/sdc_page_urls.json --exitstatus
+:: bundle exec ruby ./hw_25/lib/static_element_validation.rb -d www.shopping.com -p ./etc/test_specs/sdc_page_urls.json
+:: bundle exec ruby ./hw_25/lib/static_element_validation.rb -d www.shopping.com -p ./etc/test_specs/sdc_page_urls.json --exitstatus
+
+:: Commands to execute Homeworks # 26
+
+:: ruby ./hw_26/lib/login.rb --domain-servers-spec ./etc/env_specs/domain_servers_list.json --test-spec ./etc/page_specs/login.json --output-report-file ./reports/login.txt
+
+:: Commands to execute Homeworks # 28
+
+:: ruby ./hw_28/lib/script_28_01.rb -i ./hw_28/etc/input_28_01.sql -d d_hw_28 -t t_28_01
+:: ruby ./hw_28/lib/script_28_02.rb -i ./hw_28/etc/input_28_02.sql -d d_hw_28 -t t_28_02
+:: ruby ./hw_28/lib/script_28_03.rb -i ./hw_28/etc/input_28_03.sql -d d_hw_28 -t t_28_03
+:: ruby ./hw_28/lib/script_28_04.rb -i ./hw_28/etc/input_28_04.sql -d d_hw_28 -t t_28_04
+:: ruby ./hw_28/lib/script_28_05.rb -i ./hw_28/etc/input_28_05.sql -d d_hw_28 -t t_28_05
+:: ruby ./hw_28/lib/script_28_06_A.rb -i ./hw_28/etc/input_28_06_A.sql -d d_hw_28 -t t_28_06_A
+:: ruby ./hw_28/lib/script_28_06_B.rb -i ./hw_28/etc/input_28_06_B.sql -d d_hw_28 -t t_28_06_B
+:: ruby ./hw_28/lib/script_28_07_A.rb -i ./hw_28/etc/input_28_07_A.sql -d d_hw_28 -t t_28_07_A
+:: ruby ./hw_28/lib/script_28_07_B.rb -i ./hw_28/etc/input_28_07_B.sql -d d_hw_28 -t t_28_07_B
+:: ruby ./hw_28/lib/script_28_08.rb -i ./hw_28/etc/input_28_08.sql -d d_hw_28 -t t_28_08
+
+:: Commands to execute Homeworks # 29
+
+:: ruby ./hw_29/lib/script_29_01.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_01
+:: ruby ./hw_29/lib/script_29_02.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_02
+:: ruby ./hw_29/lib/script_29_03.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_03
+:: ruby ./hw_29/lib/script_29_04.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_04
+:: ruby ./hw_29/lib/script_29_05.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_05
+:: ruby ./hw_29/lib/script_29_06.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_06
+:: ruby ./hw_29/lib/script_29_06.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_07
+::  ruby ./hw_29/lib/script_29_07.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_08
+:: ruby ./hw_29/lib/script_29_07.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_09
+:: ruby ./hw_29/lib/script_29_08.rb -i ./hw_29/etc/input_29.sql -d d_hw_29 -t t_29 -c c_10
+
+:: Commands to execute Homeworks # 30
+
+:: ruby ./hw_30/lib/script_30_01.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_01
+:: ruby ./hw_30/lib/script_30_02.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_02
+:: ruby ./hw_30/lib/script_30_03.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_03
+:: ruby ./hw_30/lib/script_30_04.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_04
+:: ruby ./hw_30/lib/script_30_05.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_05
+:: ruby ./hw_30/lib/script_30_06.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_06
+:: ruby ./hw_30/lib/script_30_06.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_07
+:: ruby ./hw_30/lib/script_30_07.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_08
+:: ruby ./hw_30/lib/script_30_07.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_09
+:: ruby ./hw_30/lib/script_30_08.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_10

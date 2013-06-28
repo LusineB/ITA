@@ -1,0 +1,79 @@
+
+Epinions - Validate Epinions.com login on all listed servers.
+
+________________________________________________________________________________________________________________________
+Web Server: http://www.epinions.com
+________________________________________________________________________________________________________________________
+
+test_01
+
+Validations:
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid1/epicenter1.
+ PASS: The user 'invalid1' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid22/epicenter2.
+ PASS: The user 'invalid22' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid3/epicenter3.
+ PASS: The user 'invalid3' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid4/epicenter4.
+ PASS: The user 'invalid4' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid5/epicenter5.
+ PASS: The user 'invalid5' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid6/epicenter6.
+ PASS: The user 'invalid6' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid7/epicenter7.
+ PASS: The user 'invalid7' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid8/epicenter8.
+ PASS: The user 'invalid8' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid9/epicenter9.
+ PASS: The user 'invalid9' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : invalid10/epicenter10.
+ PASS: The user 'invalid10' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_02
+
+Validations:
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest1/invpass1.
+ PASS: The user 'epitest1' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest2/invpass2.
+ PASS: The user 'epitest2' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest3/invpass3.
+ PASS: The user 'epitest3' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest4/invpass4.
+ PASS: The user 'epitest4' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest5/invpass5.
+ PASS: The user 'epitest5' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest6/invpass6.
+ PASS: The user 'epitest6' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest7/invpass7.
+ PASS: The user 'epitest7' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest8/invpass8.
+ PASS: The user 'epitest8' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest9/invpass9.
+ PASS: The user 'epitest9' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : epitest10/invpass10.
+ PASS: The user 'epitest10' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_03
+
+Validations:
+ PASS: For Valid credentials, message 'epitest1's Account' is displayed : epitest1/epicenter1.
+ PASS: User 'epitest1' has Logged In as text 'Sign Out' is displayed : epitest1/epicenter1.
+ FAIL: For Valid credentials, message 'epitest2's Account' is not displayed : epitest2/epicenter2
+ PASS: User 'epitest2' has Logged In as text 'Sign Out' is displayed : epitest2/epicenter2.
+ FAIL: For Valid credentials, message 'epitest3's Account' is not displayed : epitest3/epicenter3
+ PASS: User 'epitest3' has Logged In as text 'Sign Out' is displayed : epitest3/epicenter3.
+ FAIL: For Valid credentials, message 'epitest4's Account' is not displayed : epitest4/epicenter4
+ PASS: User 'epitest4' has Logged In as text 'Sign Out' is displayed : epitest4/epicenter4.
+ FAIL: For Valid credentials, message 'epitest5's Account' is not displayed : epitest5/epicenter5
+ PASS: User 'epitest5' has Logged In as text 'Sign Out' is displayed : epitest5/epicenter5.
+ FAIL: For Valid credentials, message 'epitest6's Account' is not displayed : epitest6/epicenter6
+ PASS: User 'epitest6' has Logged In as text 'Sign Out' is displayed : epitest6/epicenter6.
+ FAIL: For Valid credentials, message 'epitest7's Account' is not displayed : epitest7/epicenter7
+ PASS: User 'epitest7' has Logged In as text 'Sign Out' is displayed : epitest7/epicenter7.
+ FAIL: For Valid credentials, message 'epitest8's Account' is not displayed : epitest8/epicenter8
+ PASS: User 'epitest8' has Logged In as text 'Sign Out' is displayed : epitest8/epicenter8.
+ FAIL: For Valid credentials, message 'epitest9's Account' is not displayed : epitest9/epicenter9
+ PASS: User 'epitest9' has Logged In as text 'Sign Out' is displayed : epitest9/epicenter9.
+ FAIL: For Valid credentials, message 'epitest10's Account' is not displayed : epitest10/epicenter10
+ PASS: User 'epitest10' has Logged In as text 'Sign Out' is displayed : epitest10/epicenter10.
+
