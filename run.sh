@@ -158,3 +158,55 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 # ruby ./hw_30/lib/script_30_07.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_08
 # ruby ./hw_30/lib/script_30_07.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_09
 # ruby ./hw_30/lib/script_30_08.rb -i ./hw_30/etc/input_30.csv -d d_hw_30 -t t_30 -c c_10
+
+# Commands to execute Homeworks # 33
+
+# ruby ./hw_33/lib/script_33_01.rb -i ./hw_33/etc/input_33_01.txt -o ./hw_33/reports/output_33_01.txt 
+# ruby ./hw_33/lib/script_33_02.rb -i ./hw_33/etc/input_33_02.txt -o ./hw_33/reports/output_33_02.txt 
+# ruby ./hw_33/lib/script_33_03.rb -i ./hw_33/etc/input_33_03.txt -o ./hw_33/reports/output_33_03.txt 
+# ruby ./hw_33/lib/script_33_04.rb -i ./hw_33/etc/input_33_04.txt -o ./hw_33/reports/output_33_04.txt 
+# ruby ./hw_33/lib/script_33_05.rb -i ./hw_33/etc/input_33_05.txt -o ./hw_33/reports/output_33_05.txt 
+# ruby ./hw_33/lib/script_33_06.rb -i ./hw_33/etc/input_33_06_A.txt -o ./hw_33/reports/output_33_06_A.txt 
+# ruby ./hw_33/lib/script_33_06.rb -i ./hw_33/etc/input_33_06_B.txt -o ./hw_33/reports/output_33_06_B.txt 
+# ruby ./hw_33/lib/script_33_07.rb -i ./hw_33/etc/input_33_07_A.txt -o ./hw_33/reports/output_33_07_A.txt 
+# ruby ./hw_33/lib/script_33_07.rb -i ./hw_33/etc/input_33_07_B.txt -o ./hw_33/reports/output_33_07_B.txt 
+# ruby ./hw_33/lib/script_33_08.rb -i ./hw_33/etc/input_33_08.txt -o ./hw_33/reports/output_33_08.txt 
+
+# Commands to execute Homeworks # 34
+
+# ruby ./hw_34/lib/script_34_01.rb -i ./hw_34/etc/input_34.csv -r 1 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_02.rb -i ./hw_34/etc/input_34.csv -r 2 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_03.rb -i ./hw_34/etc/input_34.csv -r 3 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_04.rb -i ./hw_34/etc/input_34.csv -r 4 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_05.rb -i ./hw_34/etc/input_34.csv -r 5 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_06.rb -i ./hw_34/etc/input_34.csv -r 6 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_06.rb -i ./hw_34/etc/input_34.csv -r 7 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_07.rb -i ./hw_34/etc/input_34.csv -r 8 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_07.rb -i ./hw_34/etc/input_34.csv -r 9 -o ./hw_34/reports/index.html 
+# ruby ./hw_34/lib/script_34_08.rb -i ./hw_34/etc/input_34.csv -r 10 -o ./hw_34/reports/index.html 
+
+# Commands to execute Homeworks # 35
+
+# ruby ./hw_35/lib/script_35_01.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_02.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_03.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_04.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_05.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_06_A.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_06_B.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_07_A.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_07_B.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+# ruby ./hw_35/lib/script_35_08.rb -i ./hw_35/etc/input_35.json -o ./hw_35/reports/index.html 
+
+# Commands to execute Homeworks # 36
+
+# ruby ./hw_36/lib/script_36_01.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_1 -o o_36
+# ruby ./hw_36/lib/script_36_02.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_2 -o o_36
+# ruby ./hw_36/lib/script_36_03.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_3 -o o_36
+# ruby ./hw_36/lib/script_36_04.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_4 -o o_36
+# ruby ./hw_36/lib/script_36_05.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_5 -o o_36
+# ruby ./hw_36/lib/script_36_06.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_6 -o o_36
+# ruby ./hw_36/lib/script_36_06.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_7 -o o_36
+# ruby ./hw_36/lib/script_36_07.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_8 -o o_36
+# ruby ./hw_36/lib/script_36_07.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_9 -o o_36
+# ruby ./hw_36/lib/script_36_08.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_10 -o o_36
