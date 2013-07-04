@@ -208,3 +208,7 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 :: ruby ./hw_36/lib/script_36_07.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_8 -o o_36
 :: ruby ./hw_36/lib/script_36_07.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_9 -o o_36
 :: ruby ./hw_36/lib/script_36_08.rb -i ./hw_36/etc/input_36.csv -d d_hw_36 -t t_36 -c c_10 -o o_36
+
+:: Commands to execute Homeworks # 37
+
+:: ruby ./hw_37/lib/script_37.rb -i ./hw_37/etc/input_37.csv -o ./hw_37/reports/report.txt
