@@ -1,0 +1,415 @@
+
+FE Static Element Validation
+
+========================================================================================================================
+PAGE: 01 : http://www.khatilov.com/qa/apps/sign_up/v4/
+========================================================================================================================
+
+Common Elements:
+________________________________________________________________________________________________________________________
+Element: 01 : <title>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+ PASS: Element value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+Element: 02 : <meta>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+------------------------------------------------------------------------------------------------------------------------
+Element: 03 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+------------------------------------------------------------------------------------------------------------------------
+Element: 04 : <meta>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+
+ Attribute: 01 : content
+
+  PASS: The attribute 'content' exist.
+------------------------------------------------------------------------------------------------------------------------
+Element: 05 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : type
+
+  PASS: The attribute 'type' exist.
+  PASS: attribute 'type' value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+
+Sign Up Elements:
+________________________________________________________________________________________________________________________
+Element: 51 : <td>
+
+Validations:
+ PASS: Element exists and the occurrence count: 53
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 52 : <a>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+
+ Attribute: 02 : href
+
+  PASS: The attribute 'href' exist.
+  PASS: Attribute 'href' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 53 : <a>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+
+ Attribute: 02 : href
+
+  PASS: The attribute 'href' exist.
+  PASS: Attribute 'href' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 54 : <a>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  FAIL: The attribute 'id' values do not match;
+        Expected: id_link_flickr
+        Actual: Following values were obtained for the attribute:
+                id_link_facebook
+                id_link_twitter
+
+ Attribute: 02 : href
+
+  PASS: The attribute 'href' exist.
+  FAIL: The attribute 'href' values do not match;
+        Expected: http://www.flickr.com/
+        Actual: Following values were obtained for the attribute:
+                http://www.facebook.com/
+                http://www.twitter.com/
+------------------------------------------------------------------------------------------------------------------------
+Element: 55 : <a>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  FAIL: The attribute 'id' values do not match;
+        Expected: id_link_youtube
+        Actual: Following values were obtained for the attribute:
+                id_link_facebook
+                id_link_twitter
+
+ Attribute: 02 : href
+
+  PASS: The attribute 'href' exist.
+  FAIL: The attribute 'href' values do not match;
+        Expected: http://www.youtube.com/
+        Actual: Following values were obtained for the attribute:
+                http://www.facebook.com/
+                http://www.twitter.com/
+------------------------------------------------------------------------------------------------------------------------
+Element: 56 : <img>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+
+ Attribute: 02 : src
+
+  PASS: The attribute 'src' exist.
+  PASS: Attribute 'src' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 57 : <img>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+
+ Attribute: 02 : src
+
+  PASS: The attribute 'src' exist.
+  PASS: Attribute 'src' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 58 : <img>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  FAIL: The attribute 'id' values do not match;
+        Expected: id_img_flickr
+        Actual: Following values were obtained for the attribute:
+                id_img_facebook
+                id_img_twitter
+
+ Attribute: 02 : src
+
+  PASS: The attribute 'src' exist.
+  FAIL: The attribute 'src' values do not match;
+        Expected: ./flickr.png
+        Actual: Following values were obtained for the attribute:
+                ./facebook.png
+                ./twitter.png
+------------------------------------------------------------------------------------------------------------------------
+Element: 59 : <img>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  FAIL: The attribute 'id' values do not match;
+        Expected: id_img_youtube
+        Actual: Following values were obtained for the attribute:
+                id_img_facebook
+                id_img_twitter
+
+ Attribute: 02 : src
+
+  PASS: The attribute 'src' exist.
+  FAIL: The attribute 'src' values do not match;
+        Expected: ./youtube.png
+        Actual: Following values were obtained for the attribute:
+                ./facebook.png
+                ./twitter.png
+------------------------------------------------------------------------------------------------------------------------
+Element: 60 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 61 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 62 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 63 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 64 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 65 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 66 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 67 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 68 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 69 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 70 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 71 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 72 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 73 : <span>
+
+Validations:
+ PASS: Element exists and the occurrence count: 10
+ PASS: Element value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 74 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : value
+
+  PASS: The attribute 'value' exist.
+  PASS: Attribute 'value' value matches the expected value.
+
+ Attribute: 02 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 75 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : value
+
+  PASS: The attribute 'value' exist.
+  PASS: Attribute 'value' value matches the expected value.
+
+ Attribute: 02 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 76 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : value
+
+  PASS: The attribute 'value' exist.
+  PASS: Attribute 'value' value matches the expected value.
+
+ Attribute: 02 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 77 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : value
+
+  PASS: The attribute 'value' exist.
+  PASS: Attribute 'value' value matches the expected value.
+
+ Attribute: 02 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 78 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : value
+
+  PASS: The attribute 'value' exist.
+  PASS: Attribute 'value' value matches the expected value.
+
+ Attribute: 02 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
+Element: 81 : <a>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+ FAIL: The 'a' values do not match;
+       Expected: rubygems.org::output-to-file
+       Actual: 
+
+ Attribute: 01 : href
+
+  PASS: The attribute 'href' exist.
+  FAIL: The attribute 'href' values do not match;
+        Expected: https://rubygems.org/gems/output-to-file
+        Actual: Following values were obtained for the attribute:
+                http://www.facebook.com/
+                http://www.twitter.com/
+
+ Attribute: 02 : id
+
+  PASS: The attribute 'id' exist.
+  FAIL: The attribute 'id' values do not match;
+        Expected: id_link_rubygems
+        Actual: Following values were obtained for the attribute:
+                id_link_facebook
+                id_link_twitter
+------------------------------------------------------------------------------------------------------------------------

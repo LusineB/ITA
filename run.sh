@@ -120,6 +120,11 @@ ruby ./hw_13/lib/script_13_01.rb apple banana
 
 # ruby ./hw_26/lib/login.rb --domain-servers-spec ./etc/env_specs/domain_servers_list.json --test-spec ./etc/page_specs/login.json --output-report-file ./reports/login.txt
 
+# Commands to execute Homeworks # 27
+
+# bundle exec ruby ./lib/static_element_validation.rb -d http://www.khatilov.com -o ./reports/v1_report.txt -p ./etc/test_specs/sign_up_01.json
+# bundle exec ruby ./lib/static_element_validation.rb -d http://www.khatilov.com -o ./reports/v4_report.txt -p ./etc/test_specs/sign_up_04.json
+
 # Commands to execute Homeworks # 28
 
 # ruby ./hw_28/lib/script_28_01.rb -i ./hw_28/etc/input_28_01.sql -d d_hw_28 -t t_28_01
